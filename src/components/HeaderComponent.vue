@@ -1,6 +1,6 @@
 <template>
     <header class="w-screen h-[4.5rem]  background-color: #27272A backdrop-blur-sm shadow-sm fixed flex justify-center items-center">
-        <div class="px-5 py-2 box-border  background-color: rgba(218, 218, 218, 0.33) rounded-xl hover:brightness-90 cursor-pointer transition-all">
+        <div class="px-5 py-2 box-border  bg-color: rgba(218, 218, 218, 0.33) rounded-xl hover:brightness-90 cursor-pointer transition-all">
             <img
                 class="w-36 h-7"
                 src="@/assets/icons/stackx.svg"
