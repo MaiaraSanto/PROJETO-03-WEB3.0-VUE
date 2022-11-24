@@ -1,5 +1,5 @@
 <template>
-     <section class="w-full h-40  background: #121212 rounded-2xl width: 100vw height: calc(100vh - 13.4rem) display: flex">
+     <section class="w-full h-40 bg-dark-500 rounded-2xl">
         <ul class="list-disc text-white-400 h-full flex flex-col justify-center items-center flex-wrap">
           <li 
             class="mb-1 w-[10rem]"
