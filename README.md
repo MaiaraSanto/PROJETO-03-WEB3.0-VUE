@@ -23,7 +23,7 @@ a demanda dos Frameworks, Bibliotecas e Linguagens manuseadas.A intenção da co
    
    ***
    
-   <img src="vue.png" align="center" height="500em" width="100%"> 
+   <img src="V.png" align="center" height="500em" width="100%"> 
    
    ***
  
