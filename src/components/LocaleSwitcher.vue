@@ -2,7 +2,7 @@
     <nav class="mx-auto flex">
         <button 
           @click="$i18n.locale = locales[0]"
-          class="transition-all hover:brightness-90 mr-4 box-border w-32 h-12 bg-[#27272A] flex items-center justify-center rounded-2xl text-white-900 border-2  border-solid border-brown border-radius-8"
+          class="transition-all hover:brightness-90 mr-4 box-border w-32 h-12 bg-[#27272A] flex items-center justify-center rounded-2xl text-white-900 border-2  border-solid border-brown"
         >
             <img class="mr-1" src="@/assets/icons/brazil.svg" alt=""/>
             Português
@@ -10,7 +10,7 @@
 
         <button 
           @click="$i18n.locale = locales[1]"
-          class="transition-all hover:brightness-90 mr-4 box-border w-32 h-12 bg-[#27272A] flex items-center justify-center rounded-2xl text-white-900 border-2  border-solid border-brown border-radius-8"
+          class="transition-all hover:brightness-90 mr-4 box-border w-32 h-12 bg-[#27272A] flex items-center justify-center rounded-2xl text-white-900 border-2  border-solid border-brown "
         >
             <img class="mr-1" src="@/assets/icons/english.svg" alt=""/>
             Inglês
@@ -18,7 +18,7 @@
 
         <button 
           @click="$i18n.locale = locales[2]"
-          class="transition-all hover:brightness-90 mr-4 box-border w-32 h-12 bg-[#27272A] flex items-center justify-center rounded-2xl text-white-900 border-2  border-solid border-brown border-radius-8"
+          class="transition-all hover:brightness-90 mr-4 box-border w-32 h-12 bg-[#27272A] flex items-center justify-center rounded-2xl text-white-900 border-2  border-solid border-brown"
         >
             <img class="mr-1" src="@/assets/icons/spanish.svg" alt=""/>
             Espanhol
