@@ -86,7 +86,7 @@ a demanda dos Frameworks, Bibliotecas e Linguagens manuseadas.A intenção da co
 
 ###  Entendendo o conceito de Babel
    
-- `Babel.config` é um transpilador JavaScript, com um código ES2015, que é a versão atual de JavaScript, deve utilizar o transpilador para converter o código novo e gerar, assim, um novo código em ES5, que é uma versão antiga do JavaScript. Essa mudança de código torna-o compreensível para o navegador, permitindo a continuidade dos trabalhos. Entre as suas vantagens estão ter código aberto e ser multiplataforma, permitindo assim o acesso fácil de todo desenvolvedor que precisa fazer essa alteração. 
+- `Babel.config` é um transpilador JavaScript, com um código ES2015, que é a versão atual de JavaScript, deve utilizar o transpilador para converter o código novo e gerar, assim, um novo código em ES5, que é uma versão antiga do JavaScript. Essa mudança de código torna-o compreensível para o navegador, permitindo a continuidade dos trabalhos. Entre as suas vantagens estão: ter código aberto e ser multiplataforma; permitindo assim o acesso fácil de todo desenvolvedor que precisa fazer essa alteração. 
 
 
 
