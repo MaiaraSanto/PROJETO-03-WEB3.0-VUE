@@ -23,18 +23,16 @@
             'TypeScript', 
             'React', 
             'Styled-Components', 
-            'Java', 
-            'Spring', 
+            'Java',  
             'VueJs', 
-            'Tailwind', 
-            'Bootstrap', 
+            'Tailwind',  
             'Angular', 
             'MYSql',
             'PostgreSQL',
             'PL/SQL',
             'MariaDB',
             'Firebird',
-            'SQLServer'
+          
           ]
       }
     }
