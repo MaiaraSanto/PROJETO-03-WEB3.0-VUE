@@ -5,93 +5,88 @@
 </div>
 
  Trago-lhe aqui três Projetos que faz parte do Módulo Web 3.0 do curso para `Desenvolvedor Full Stack da Editech StackX`. O conceito destas aplicações, serão três Single Page Aplication, aplicadas em <i>`React`,`Angular`,`Vue.js`</i>. Cada uma foi estruturada dentro de suas particularidades e seus conceitos utilizados conforme 
-a demanda dos Frameworks, Bibliotecas e Linguagens manuseadas.A intenção da construção destes Projetos será uma lista com as tecnologias a qual tem experiência, onde será feito um array no HTML e a inserção de um map para listar. Ao clicar no botão de linguagem o texto de apresentação ”Olá meu nome....”, mudará para a linguagem selecionada. O botão de linguagem deve ser um componente onde passará 3 propriedades: Título, ícone e o click dele. Estarei apresentando aqui o primeiro Projeto feito em React. 
-  
- ***
-   
-  #  Entendendo sobre o conceito React
-  
-  O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU). Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites. Os componentes dessa ferramenta foram desenvolvidos pelo Facebook. Ela foi lançada em 2013 como uma ferramenta JavaScript de código aberto. Atualmente, ela permanece na frente das suas principais competidoras, como a Angular e a Bootstrap, sendo a bibliotecas mais vendida e a mais utilizada do JavaScript.  
- 
- ***
- 
-  #  Desafio 01 React
- 
-  Esta aplicação foi construida em `Reactts`, utilizando a plataforma `Vitets` que é um bundler onde consegue usar compiladores e frameworks direto  da caixa, além da criação de hot module e replacement dentro do Projeto.
+a demanda dos Frameworks, Bibliotecas e Linguagens manuseadas.A intenção da construção destes Projetos será uma lista com as tecnologias a qual tem experiência, onde será feito um array no HTML e a inserção de um map para listar. Ao clicar no botão de linguagem o texto de apresentação ”Olá meu nome....” mudará para a linguagem selecionada. O botão de linguagem deve ser um componente onde passará 3 propriedades: Título, ícone e o click dele. Estarei apresentando aqui o segundo Projeto feito em Vue. 
 
+***
+
+ # Entendendo sobre o conceito Vue
   
-  <br>
+ Vue (pronuncia-se /vjuː/, como view, em inglês) é um framework progressivo para a construção de interfaces de usuário. Ao contrário de outros frameworks monolíticos, Vue foi projetado desde sua concepção para ser adotável incrementalmente. A biblioteca principal é focada exclusivamente na camada visual (view layer), sendo fácil adotar e integrar com outras bibliotecas ou projetos existentes. Por outro lado, Vue também é perfeitamente capaz de dar poder a sofisticadas Single-Page Applications quando usado em conjunto com ferramentas modernas e bibliotecas de apoio.
+ 
+#  Desafio 03 Vue
+ 
+  Esta aplicação foi construida em `Vue JS`, utilizando a plataforma `Vitets` que é um bundler, onde consegue usar compiladores e frameworks direto  da caixa, além da criação de hot module e replacement dentro do Projeto. O Vue JS será estruturada de aplicações que são constituídas de componentes criados com a sintaxe HTML, CSS e Javascript em um único arquivo vue, que facilita o isolamento e a manutenção de funcionalidades. Cada componente constitui um escopo isolado dos demais, tanto em lógica quantos nos estilos. A renderização dos dados é feita baseada em um virtual DOM que é atualizada apenas quando os dados de um componente são alterados, aumentando o desempenho e descartando atualizações desnecessárias.
+
+<br>
   
-  ### <div align="center"> [Clique aqui para acessar o Projeto](https://desafioweb30-react.netlify.app/)
+  ### <div align="center"> [Clique aqui para acessar o Projeto](https://projeto-web-3-0-vue.vercel.app/)
    
    ***
    
-   <img src="react.png" align="center" height="500em" width="100%" href="https://desafioweb30-react.netlify.app/"> 
+   <img src="vue.png" align="center" height="500em" width="100%" href="https://projeto-02-web-3-o-angular.vercel.app/"> 
    
    ***
-   
-  #  Passo a Passo da contrução do Projeto
-    
-    
-   
-   ###  Criação do Projeto
-   
-- ```create vite @latest```, utilizado no PowerShell sendo uma ferramenta de linha de comando que ajuda a interagir com plataforma online, navegadores e servidores.
-
-#
  
-###  Abrir o Projeto no Terminal
-   
-- ```code .```, Aplicar este comando no PowerShell, para ter acesso ao Projeto no VsCode.
-
-#
-
-###  Corrigir Configurações no arquivo TSX
-   
-- ```yarn add --dev @types/react```, Identifica certos tipos de problemas antes mesmo de executar o código, melhorando o fluxo do desenvolvimento e corrigindo 
-automaticamente os erros.
-
-#
+ #  Passo a Passo da contrução do Projeto
  
-###  Executando o comando NPM
+ ###   Instalando o npm no Sistema Operacional
  
-- ```npm install ```, NPM (Node Package Manager) é um controle onde iremos instalar o gerenciador de dependências e seus pacotes, através de linhas de comandos, interagindo com o repositório existente.
-
-#
- 
-###  Instalando o Styled Component
-   
- - ```npm install --save styled-components```, é uma biblioteca em React ou React Native que nos permite criar components de estilo ao escrever códigos `CSS` dentro de um arquivo `JavaScript`.
+ - ```npm install --global``` é uma ferramenta de linha de comando que ajuda a interagir com plataformas online, com navegadores e servidores.
  
  #
- 
-###  Instalendo o ícone do Projeto
+
+  
+ ###  Instalando o CLI da Vue
+
+- ```yarn global add @vue/cli```, fornece uma lista de configurações do Esboço que podemos usar, para facilitar a criação de aplicações com Vue. Estes conceitos  permitem configurar ferramentas como: TypeScript, Linting, Testes e Vue-Router.
+
+#
+
+###  Criando o Projeto Vue
+
+- ```vue create```, instalará configurações e pacotes necessários para a execução do Programa, como também poderá funcionar como uma estrutura de aplicativo Web, capaz de alimentar funcionalidades avançadas de uma única página.
+
+#
+
+### Abrir o Projeto no Terminal
    
-- ``` npm add @types/styled-components -D```, Utiliza este comando no Projeto, apropriando e depurando um determinado  caso de uso, formatando os components e dando rollup para construir o Package.
+- ```code .```, Aplicar este comando no PowerShell para ter acesso ao Projeto no VsCode.
 
 #
- 
-###  Instalando a requisição Axios
+
+###  Atualizar a Package
    
-- ``` npm install axios```, que é um `cliente HTTP`, baseado em promises para fazer requisições, podendo ser utilizado tanto no navegador, quanto no Node.js.
+- ```npm update -g @vue/cli.```, Irá  atualizar todas as páginas, pacotes, dependências, configurações existente no Projeto.
 
 #
 
-###  Desenvolvimento Local
+###  Efetuar o Projeto no servidor
+   
+- ```yarn serve .```, Irá abrir o Projeto no navegador, ele rodará na porta local http://localhost:8080/ , sendo o endereço principal para sua navegação.
 
-- A masterramificação contém a versão mais recente do styled componente. Para iniciar o desenvolvimento local: ``yarn run dev`` e ``yarn start``a última etapa inicia o aplicativo de documentação como um servidor web simples em http://localhost:127 .
+#
+
+###  Instalação do PostCSS
+   
+- ```yarn add -dev tailwindcss postcss autoprefixer vite```, verifica todos os arquivos HTML, components, JavaScript e quaisquer outros modelos para nomes de classe, gerando os estilos correspondentes e em seguida gravando um arquivo css estático.
 
 #
 
-###  Executando yarn test
-
-- Podemos executar ``yarn test`` para executar o conjunto de testes e linters. Para ajudá-lo a desenvolver o componente, configuramos alguns testes que cobrem a funcionalidade básica (podem ser encontrados em /tests). Embora testes seja prioridade, isso abrange apenas uma pequena parte do componente. É altamente recomendável adicionar  testes ao adicionar novas funcionalidades.
+###  Instalando Tailwindcss init
+   
+- ```npx tailwindcss init```, irá formar um arquivo de configuração do Tailwind, além de obter a estrutura css do utilitário, se concentrando na funcionalidade do item que está sendo utilizado.
 
 #
-    
-###  Conceito de Props
- 
-- `` PROPS`` é um objeto  com dados que retorna um elemento React. Chama-se `Components de função`, porque são literalmente  atribuição ao JavaScript. São argumentos para uma funcionalidade dentro de um component react e rendeiriza os parâmetros que  deseja dar a ele. Ao clicar nos botões contendo os Países, necessita mostrar na tela os seus respectivos idiomas e para isto é necessário passar um bjeto dentro da Props para que este retorne um artefato para fazer a funcionalidade de três premissas: título, ícone e click. 
+
+###  Instalação da Vuex
+   
+- ```npm install vuex @next --save```, será um padrão de gerenciamento de estado + biblioteca para aplicações Vue.JS, servindo como store centralizado para todos os componentes em uma aplicabilidade com regras, garantindo que o estado só possa ser multado de forma previsível.
+
+#
+
+###  Entendendo o conceito de Babel
+   
+- `Babel.config` é um transpilador JavaScript, com um código ES2015, que é a versão atual de JavaScript, deve utilizar o transpilador para converter o código novo e gerar, assim, um novo código em ES5, que é uma versão antiga do JavaScript. Essa mudança de código torna-o compreensível para o navegador, permitindo a continuidade dos trabalhos. Entre as suas vantagens estão ter código aberto e ser multiplataforma, permitindo assim o acesso fácil de todo desenvolvedor que precisa fazer essa alteração. 
 
 
 
