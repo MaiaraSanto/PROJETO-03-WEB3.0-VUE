@@ -19,11 +19,11 @@ a demanda dos Frameworks, Bibliotecas e Linguagens manuseadas.A intenção da co
 
 <br>
   
-  ### <div align="center"> [Clique aqui para acessar o Projeto](https://projeto-web-3-0-vue.vercel.app/)
+  ### <div align="center"> [Clique aqui para acessar o Projeto](https://projeto-03-web-vue.vercel.app/)
    
    ***
    
-   <img src="vue.png" align="center" height="500em" width="100%" href="https://projeto-02-web-3-o-angular.vercel.app/"> 
+   <img src="vue.png" align="center" height="500em" width="100%"> 
    
    ***
  
