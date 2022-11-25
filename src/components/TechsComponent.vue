@@ -1,6 +1,6 @@
 <template>
      <section class="w-full h-40 bg-dark-500 rounded-2xl">
-        <ul class="list-disc text-white-400 h-full flex flex-col justify-center items-center flex-wrap">
+        <ul class="list-disc text-white-400  inline-block flex-col flex-wrap h-full mr-2">
           <li 
             class="mb-1 w-[10rem]"
             v-for="tech in techs" :key="tech"
