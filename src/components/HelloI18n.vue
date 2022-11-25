@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-white-900 w-full text-center text-2xl mb-8">{{ $t('message') }}</h1>
+   <h1 class="text-white-900 w-full text-center text-2xl mb-8">{{ $t('message') }}</h1>
 </template>
 
 <script>
